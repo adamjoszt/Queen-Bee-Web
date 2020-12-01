@@ -1,0 +1,66 @@
+/*Table of Contents
+-----------------------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-----------------------------------------------------------------------*/
+/* General Content
+-----------------------------------------------------------------------*/
+
+h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+h2.wildlife {
+    margin-bottom: 15px
+}
+
+p.phon {
+    margin-top: 80px;
+}
+
+a.subscribe {
+    margin-top: 10px;
+}
+
+a.wlbtn {
+    margin-top: 10px;
+}
+
+/* Typography
+-----------------------------------------------------------------------*/
+/* Header & Navigation
+-----------------------------------------------------------------------*/
+
+nav.navbar {
+    margin-bottom: 0;
+}
+
+/* Images & Media
+-----------------------------------------------------------------------*/
+
+img.prod {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+i.iconshop:hover {
+    color: #ebaa14;
+}
+
+i.iconshop {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+/* Footer
+-----------------------------------------------------------------------*/
+/* Media Queries
+-----------------------------------------------------------------------*/
+/* Larger than mobile */

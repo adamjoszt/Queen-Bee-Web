@@ -1,0 +1,94 @@
+/*Table of Contents
+-----------------------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-----------------------------------------------------------------------*/
+/* General Content
+-----------------------------------------------------------------------*/
+
+.thumbnail {
+    background-color: #ebaa14;
+    border-color: black;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    border-width: 8px;
+    margin-bottom: 30px;
+}
+
+.text1 {
+    margin-bottom: 35px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+p.queen {
+    font-size: 23px;
+}
+
+p.text-center {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+p.pshop {
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+a:hover {
+    color: black;
+}
+
+.signup {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* Typography
+-----------------------------------------------------------------------*/
+/* Header & Navigation
+-----------------------------------------------------------------------*/
+/* Images & Media
+-----------------------------------------------------------------------*/
+
+i.iconshop:hover {
+    color: #ebd8ae;
+}
+
+i.iconshop {
+    font-size: 30px;
+    color: black;
+}
+
+i.fa {
+    margin-bottom: 10px;
+}
+
+.imgshop {
+    margin-top: 10px;
+    border-radius: 12px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+/* Footer
+-----------------------------------------------------------------------*/
+/* Media Queries
+-----------------------------------------------------------------------*/
+/* Larger than mobile */

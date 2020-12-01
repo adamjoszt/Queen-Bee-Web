@@ -1,0 +1,155 @@
+/*Table of Contents
+-----------------------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-----------------------------------------------------------------------*/
+/* General Content
+-----------------------------------------------------------------------*/
+
+strong {
+    font-weight: 800;
+}
+
+body {
+    background-color: #ebd8ae;
+    font-family: 'Nunito Sans', sans-serif;
+    /*font-weight: 600;*/
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.container-fluid {
+    background-color: #ebaa14;
+}
+
+footer {
+    background-color: #ebaa14;
+    text-align: center;
+    font-size: 20px;
+}
+
+a.btn {
+    background-color: #ebaa14;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a.scotland:hover {
+    color: black;
+}
+
+a.con:hover {
+    color: black;
+}
+
+/* Typography
+-----------------------------------------------------------------------*/
+/* Header & Navigation
+-----------------------------------------------------------------------*/
+
+.logo1 {
+    margin-right: 0;
+    text-align: right;
+}
+
+.head1 {
+    background-color: #ebaa14;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar {
+    font-size: 25px;
+    border: none;
+    font-weight: 600;
+}
+
+.navbar a.active {
+    background-color: #ebd8ae;
+    color: black !important;
+}
+
+.navbar a.active:hover {
+    color: #ebaa14 !important;
+}
+
+.navbar a {
+    color: #ebaa14 !important;
+}
+
+.navbar a:hover {
+    color: white !important;
+}
+
+/* Images & Media
+-----------------------------------------------------------------------*/
+
+.imgmain {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+/* Footer
+-----------------------------------------------------------------------*/
+
+footer {
+    padding-top: 12px;
+    padding-bottom: 2px;
+    margin-top: 30px;
+}
+
+.social {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+ul.social {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.social li {
+    font-size: 1.2em;
+    display: inline;
+    padding: 0 2%;
+}
+
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+
+/* Media Queries
+-----------------------------------------------------------------------*/
+/* Larger than mobile */

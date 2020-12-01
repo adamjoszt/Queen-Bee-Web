@@ -1,0 +1,92 @@
+/*Table of Contents
+-----------------------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-----------------------------------------------------------------------*/
+/* General Content
+-----------------------------------------------------------------------*/
+
+body {
+    font-size: 20px;
+}
+
+table.borderless td,table.borderless th{
+     border: none !important;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+th {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+div.brunch {
+    margin-bottom: 50px;
+}
+
+div.coffee {
+    margin-top: 50px;
+}
+
+div.fish {
+    margin-bottom: 25px;
+}
+
+div.imgcof {
+    margin-top: 100px;
+}
+
+p.closer {
+    margin-top: 20px
+}
+
+a.btn {
+    margin-bottom: 20px;
+}
+
+/* Typography
+-----------------------------------------------------------------------*/
+/* Header & Navigation
+-----------------------------------------------------------------------*/
+/* Images & Media
+-----------------------------------------------------------------------*/
+
+img.img1 {
+    margin-top: 70px; 
+}
+
+img.img2 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+img.all {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+div.muffin {
+    margin-top: 25px;
+}
+
+/* Footer
+-----------------------------------------------------------------------*/
+/* Media Queries
+-----------------------------------------------------------------------*/
+/* Larger than mobile */
