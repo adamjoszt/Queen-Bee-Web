@@ -87,6 +87,16 @@ a.con:hover {
     margin-right: 0;
 }
 
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float: none;
+}
+
 .navbar {
     font-size: 25px;
     border: none;
