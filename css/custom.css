@@ -52,6 +52,7 @@ a.btn {
     color: black;
     font-size: 20px;
     font-weight: 700;
+    border-color: black;
 }
 
 a.btn:hover {
@@ -61,10 +62,6 @@ a.btn:hover {
 
 a {
     color: black;
-}
-
-a.bord {
-    border-color: black;
 }
 
 a.scotland:hover {
