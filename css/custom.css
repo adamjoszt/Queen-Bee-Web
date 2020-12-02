@@ -63,6 +63,10 @@ a {
     color: black;
 }
 
+a.bord {
+    border-color: black;
+}
+
 a.scotland:hover {
     color: black;
 }

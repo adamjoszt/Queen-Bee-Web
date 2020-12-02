@@ -59,6 +59,10 @@ a.btn {
     margin-bottom: 20px;
 }
 
+a.bord {
+    border-color: black;
+}
+
 /* Typography
 -----------------------------------------------------------------------*/
 /* Header & Navigation

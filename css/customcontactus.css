@@ -69,6 +69,10 @@ textarea.com {
     margin-top: 8px;
 }
 
+a.bord {
+    border-color: black;
+}
+
 /* Typography
 -----------------------------------------------------------------------*/
 /* Header & Navigation
