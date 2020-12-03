@@ -59,6 +59,11 @@ a.btn {
     margin-bottom: 20px;
 }
 
+div.muffin {
+    margin-top: 25px;
+}
+
+
 /* Typography
 -----------------------------------------------------------------------*/
 /* Header & Navigation
@@ -79,10 +84,7 @@ img.all {
     margin-bottom: 15px;
     border-radius: 15px;
     filter: drop-shadow(8px 8px 10px gray);
-}
-
-div.muffin {
-    margin-top: 25px;
+    max-width: 100%;
 }
 
 /* Footer
