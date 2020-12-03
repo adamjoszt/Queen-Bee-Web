@@ -61,22 +61,25 @@
     
     <form name="contact-form" method="POST" data-netlify="true">
         <div class="form-group">
-            <label for="name">Name</label>
-            <input type="name" class="form-control" id="name" placeholder="Name">
+                Name:
+            <input type="text" class="form-control" placeholder="Your Name" name="name">
         </div>
         <div class="form-group">
-            <label for="mobile">Mobile</label>
-            <input type="mobile" class="form-control" id="mobile" placeholder="Mobile">
+                Mobile:
+            <input type="text" class="form-control" placeholder="Your Mobile" name="mobile">
         </div>
         <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
+                Email:
+            <input type="text" class="form-control" placeholder="Your Email" name="email">
         </div>
-        <label>Comments</label><br>
-        <textarea class="com" name="comments" rows="5" cols="50">
-        </textarea><br>
-        <input type="checkbox" id="newsletter" name="newsletter" value="Newsletter">
-        <label class="check" for="newsletter"> Subscribe to our Newsletter</label><br>
+        <div class="form-group">
+                Comments:<br>
+            <textarea class="form-control" name="comments" rows="5" cols="50">
+            </textarea>
+        </div>
+        <div class="form-group">            
+            <input type="checkbox" name="check[]" value="newsletter"> Subscribe to our Newsletter
+        </div>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
 </div>
