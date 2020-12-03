@@ -47,6 +47,7 @@ img.prod {
     margin-bottom: 15px;
     border-radius: 15px;
     filter: drop-shadow(8px 8px 10px gray);
+    max-width: 100%;
 }
 
 i.iconshop:hover {
