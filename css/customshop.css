@@ -87,6 +87,10 @@ i.fa {
     filter: drop-shadow(8px 8px 10px gray);
 }
 
+img.wid {
+    max-width: 100%;
+}
+
 /* Footer
 -----------------------------------------------------------------------*/
 /* Media Queries

@@ -60,6 +60,10 @@ i.iconshop {
     margin-bottom: 25px;
 }
 
+img.wid {
+    max-width: 100%;
+}
+
 /* Footer
 -----------------------------------------------------------------------*/
 /* Media Queries
