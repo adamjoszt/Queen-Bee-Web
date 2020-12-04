@@ -133,6 +133,7 @@ a.con:hover {
 
 img.wid {
     max-width: 100%;
+    filter: drop-shadow(8px 8px 10px gray);
 }
 
 /* Footer

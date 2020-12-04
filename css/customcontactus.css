@@ -80,6 +80,7 @@ textarea.com {
 
 div.carousel img {
     margin: auto;
+    max-height: 600px;
 }
 
 iframe.wid {
