@@ -77,6 +77,10 @@ a.con:hover {
 /* Header & Navigation
 -----------------------------------------------------------------------*/
 
+h2#first {
+    font-weight: 800;
+}
+
 .logo1 {
     text-align: right;
 }
@@ -138,6 +142,10 @@ img.wid {
 
 /* Footer
 -----------------------------------------------------------------------*/
+
+p#footer {
+    font-weight: 800;
+}
 
 footer {
     padding-top: 12px;
