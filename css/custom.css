@@ -92,6 +92,10 @@ h2#first {
     margin-right: 0;
 }
 
+nav {
+    border-radius: 0px !important;
+}
+
 .navbar-nav {
     float: none;
     text-align: center;
