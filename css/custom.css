@@ -129,6 +129,10 @@ nav {
     color: white !important;
 }
 
+.btn-primary {
+    font-weight: 800 !important;
+}
+
 /* Images & Media
 -----------------------------------------------------------------------*/
 
@@ -147,8 +151,9 @@ img.wid {
 /* Footer
 -----------------------------------------------------------------------*/
 
-p#footer {
+h3.footer {
     font-weight: 800;
+    font-size: 20px
 }
 
 footer {
