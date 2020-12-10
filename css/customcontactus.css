@@ -27,7 +27,7 @@ table {
     border: 4px solid black;
 }
 
-form {
+form label {
     font-size: 21px;
     font-weight: 800;
 }
