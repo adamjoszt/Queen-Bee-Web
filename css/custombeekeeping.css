@@ -43,6 +43,10 @@ nav.navbar {
 /* Images & Media
 -----------------------------------------------------------------------*/
 
+div.video1 {
+    margin-top: 25px;
+}
+
 img.prod {
     margin-bottom: 15px;
     border-radius: 15px;

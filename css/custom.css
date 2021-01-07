@@ -24,11 +24,17 @@ p {
     font-size: 20px;
 }
 
+p.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin-top: 30px;
     font-weight: 600;
+    margin-top: 12px;
 }
 
 h2 {
@@ -72,12 +78,16 @@ a.con:hover {
     color: black;
 }
 
+span {
+    display: none;
+}
+
 /* Typography
 -----------------------------------------------------------------------*/
 /* Header & Navigation
 -----------------------------------------------------------------------*/
 
-h2#first {
+h2.first {
     font-weight: 800;
 }
 
