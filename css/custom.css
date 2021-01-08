@@ -180,7 +180,7 @@ footer {
 ul.social {
     display: block;
     list-style-type: none;
-    text-align: center;
+    padding-left: 0 !important;
 }
 
 ul.social li {
