@@ -59,6 +59,7 @@ a.btn {
     font-size: 20px;
     font-weight: 700;
     border-color: black;
+    border-radius: 18px;
 }
 
 a.btn:hover {
