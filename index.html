@@ -38,7 +38,7 @@
             <a href="#"><img class="wid" src="logo/queenbeelogo.png" alt="Company logo with Queen Bee on it."></a>
         </div>
         <div class="col-xs-8">
-            <h1>Queen Bee<br>Bees for Life</h1>
+            <h1 id="headJava">Queen Bee<br>Bees for Life</h1>
         </div>
         <div class="col-xs-2 logo1">
             <a href="#"><img class="wid" src="logo/queenbeelogo.png" alt="Company logo with Queen Bee on it."></a>
@@ -67,7 +67,7 @@
 <div class="container">
     <div class="row">
         <div class="col col-md-6 text-center">
-            <img class="imgmain" src="images/queenbee/honey.jpg" alt="Organic honey placed on a shelf in our Cafe.">
+            <img onmouseover="biggerPic(this)" onmouseout="smallerPic(this)" class="imgmain" src="images/queenbee/honey.jpg" alt="Organic honey placed on a shelf in our Cafe.">
         </div>            
         <div class="col col-md-6">               
             <p>
@@ -93,7 +93,7 @@
             </p>
         </div>
         <div class="col col-md-6 text-center">
-            <img class="imgmain" src="images/queenbee/beekeeping.jpg" alt="Beekeeping in practice during our beekeeping course.">
+            <img onmouseover="biggerPic(this)" onmouseout="smallerPic(this)" class="imgmain" src="images/queenbee/beekeeping.jpg" alt="Beekeeping in practice during our beekeeping course.">
         </div>
     </div>
 </div>
@@ -103,7 +103,7 @@
 <div class="container">
     <div class="row">
         <div class="col col-md-6 text-center">
-            <img class="imgmain" src="images/queenbee/visitscotland.jpg" alt="Highland cow in the mountains of Scotland.">
+            <img onmouseover="biggerPic(this)" onmouseout="smallerPic(this)" class="imgmain" src="images/queenbee/visitscotland.jpg" alt="Highland cow in the mountains of Scotland.">
         </div>
         <div class="col col-md-6">
             <p>
@@ -136,7 +136,7 @@
             <p><a class="btn btn-primary conmarg" href="contactus.html" role="button">Contact Us</a></p>
         </div>
         <div class="col-sm-3">
-            <ul class="social">
+            <ul class="social" id="socialJava">
                 <li class="facebook"><a href="https://en-gb.facebook.com/" aria-label="Visit our Facebook page to learn more about us." target="_blank"><i class="fa   fa-facebook-square fa-lg"></i></a></li>
                 <li class="twitter"><a href="https://twitter.com/?lang=en-gb" aria-label="Visit our Twitter page to learn more about us." target="_blank"><i class="fa    fa-twitter-square fa-lg"></i></a></li>
                 <li class="youtube"><a href="https://www.youtube.com/" aria-label="Visit our Youtube page to learn more about us." target="_blank"><i class="fa    fa-youtube-square fa-lg"></i></a></li>
@@ -148,7 +148,46 @@
 <p class="copyright">&copy; 2020 Queen Bee - Bees for Life. All rights reserved</p>
     
 </footer>
-    
+
+<script>
+    // this function increases the font size of the header
+    document.getElementById("headJava").addEventListener("mouseover", function biggerFont() {
+        document.getElementById("headJava").style.fontSize = "45px";
+
+    })
+    // this function decreases the font size of the header
+    document.getElementById("headJava").addEventListener("mouseout", function normalFont() {
+        document.getElementById("headJava").style.fontSize = "40px";
+
+    })
+
+</script>
+
+<script>
+    // this function increases the size of the social media icons
+    document.getElementById("socialJava").addEventListener("mouseover", function biggerIcon() {
+        document.getElementById("socialJava").style.fontSize = "1.3em";
+
+    })
+    // this function decreases the size of the social media icons
+    document.getElementById("socialJava").addEventListener("mouseout", function normalIcon() {
+        document.getElementById("socialJava").style.fontSize = "1.2em";
+
+    })
+
+</script>
+
+<script>
+    // this function will enlarge the pics
+        function biggerPic(x) {
+        x.style.height = "320px";
+    }
+    // this function will smaller the pics
+    function smallerPic(x) {
+        x.style.height = "300px";
+    }
+
+</script>
     
 <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
